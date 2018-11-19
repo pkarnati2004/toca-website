@@ -1101,6 +1101,7 @@ SECTION MARGIN
 .navbar .navbar-brand {
     height: auto;
     display: block;
+    width: 70%;
 }
 
 
@@ -1186,6 +1187,7 @@ SECTION MARGIN
     .navbar .navbar-brand {
         margin-right: 16px;
         margin-left: 0 !important;
+        size: 70%;
     }
     .navbar .nav.navbar-nav li a,
     .navbar .nav.navbar-nav.navbar-right li a {
@@ -1233,6 +1235,10 @@ SECTION MARGIN
     line-height: 1.7;
     padding: 20px 0;
     color: #fff;
+}
+
+.hero-content img {
+    width: 70%;
 }
 
 
@@ -1492,7 +1498,7 @@ SECTION MARGIN
 }
 
 .mobile-slider::before {
-    /* background: rgba(0, 0, 0, 0) url("../img/mockup_top.png") no-repeat scroll center center / cover; */
+    background: rgba(0, 0, 0, 0) url("../img/mockup_top.png") no-repeat scroll center center / cover;
     border-radius: 0 0 50px 50px;
     content: "";
     height: 16px;
