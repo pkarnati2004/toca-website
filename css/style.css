@@ -1154,7 +1154,7 @@ SECTION MARGIN
   }
   .navbar.top-nav-collapse {
     padding: 0;
-    background: linear-gradient(150deg, #13b7de 15%, #8f6ed5 70%, #cff0f8 94%);
+    background: linear-gradient(150deg, #13b7de 15%, #366eee 70%, #1351de 94%);
   }
   .navbar .navbar-brand {
     margin-right: 16px;
@@ -1302,7 +1302,7 @@ SECTION MARGIN
 }
 
 .section-circle .shape-primary {
-  background: linear-gradient(150deg, #13b7de 15%, #8f6ed5 70%, #d782d9 94%);
+  background: linear-gradient(150deg, #13b7de 15%, #366eee 70%, #1351de 94%);
 }
 
 .section-circle .shape-primary :nth-child(1) {
@@ -1435,7 +1435,7 @@ SECTION MARGIN
 }
 
 .section-circle .shape-style-1.shape-primary {
-  background: linear-gradient(150deg, #13b7de 15%, #8f6ed5 70%, #d782d9 94%);
+  background: linear-gradient(150deg, #13b7de 15%, #366eee 70%, #1351de 94%);
 }
 
 /*app mokup slider css*/
@@ -2234,7 +2234,7 @@ SECTION MARGIN
 .single-promo-content span {
   font-size: 35px;
   margin-bottom: 10px;
-  background: linear-gradient(to bottom, #13b7de 15%, #8f6ed5 70%, #d782d9 94%);
+  background: #1351de;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -2252,7 +2252,7 @@ SECTION MARGIN
   width: 100%;
   height: 2px;
   background: #6541c1;
-  background: linear-gradient(150deg, #13b7de 15%, #8f6ed5 70%, #d782d9 94%);
+  background: linear-gradient(150deg, #13b7de 15%, #366eee 70%, #1351de 94%);
   filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#6541c1', endColorstr='#d43396', GradientType=1);
   -webkit-transform: scale(0);
   transform: scale(0);
@@ -2776,7 +2776,7 @@ SECTION MARGIN
   left: 0;
   font-size: 30px;
   line-height: 30px;
-  background: linear-gradient(to bottom, #13b7de 15%, #8f6ed5 70%, #d782d9 94%);
+  background: linear-gradient(to bottom, #13b7de 15%, #366eee 70%, #1351de 94%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -2882,7 +2882,7 @@ SECTION MARGIN
   overflow: hidden;
   align-items: center;
   top: 8px;
-  background: linear-gradient(to bottom, #13b7de 15%, #8f6ed5 70%, #d782d9 94%);
+  background: linear-gradient(to bottom, #13b7de 15%, #366eee 70%, #1351de 94%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -2921,11 +2921,11 @@ SECTION MARGIN
 }
 
 .product-counter-section .counter-list li:nth-child(3n + 2) .count {
-  color: #8f6ed5;
+  color: #366eee;
 }
 
 .product-counter-section .counter-list li:nth-child(3n + 3) .count {
-  color: #d782d9;
+  color: #1351de;
 }
 
 @media (max-width: 768px) {
@@ -3098,7 +3098,7 @@ SECTION MARGIN
 .blockquote-icon i {
   font-size: 40px;
   line-height: 40px;
-  background: linear-gradient(to top, #13b7de 15%, #8f6ed5 70%, #d782d9 94%);
+  background: linear-gradient(to top, #13b7de 15%, #366eee 70%, #1351de 94%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -3251,7 +3251,7 @@ SECTION MARGIN
   position: absolute;
   top: 0;
   left: -2px;
-  background: linear-gradient(150deg, #13b7de 15%, #8f6ed5 70%, #d782d9 94%);
+  background: linear-gradient(150deg, #13b7de 15%, #366eee 70%, #1351de 94%);
 }
 
 #accordion .panel-heading {
@@ -3286,7 +3286,7 @@ SECTION MARGIN
   top: 50%;
   right: 25px;
   transform: translateY(-50%);
-  background: linear-gradient(150deg, #13b7de 15%, #8f6ed5 70%, #d782d9 94%);
+  background: linear-gradient(150deg, #13b7de 15%, #366eee 70%, #1351de 94%);
   -webkit-background-clip: text;
   color: transparent;
 }
@@ -3430,7 +3430,7 @@ SECTION MARGIN
 
 .download-app-button a:hover span,
 .download-btn.hover-active span {
-  background: linear-gradient(to bottom, #13b7de 15%, #8f6ed5 70%, #d782d9 94%);
+  background: linear-gradient(to bottom, #13b7de 15%, #366eee 70%, #1351de 94%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -3824,7 +3824,7 @@ ul.blog-comments li p {
 }
 
 .footer-social-list ul li a:hover {
-  background: linear-gradient(150deg, #13b7de 15%, #8f6ed5 70%, #d782d9 94%);
+  background: linear-gradient(150deg, #13b7de 15%, #366eee 70%, #1351de 94%);
 }
 
 .footer-social-list ul li a:hover i {
@@ -3838,7 +3838,7 @@ ul.blog-comments li p {
   text-align: center;
   vertical-align: middle;
   font-size: 16px;
-  background: linear-gradient(150deg, #13b7de 15%, #8f6ed5 70%, #d782d9 94%);
+  background: linear-gradient(150deg, #13b7de 15%, #366eee 70%, #1351de 94%);
   -webkit-background-clip: text;
   color: transparent;
   transition: all 0.3s ease-in;
@@ -3899,7 +3899,7 @@ ul.blog-comments li p {
   bottom: 5px;
   border-radius: 50%;
   border: 3px solid transparent;
-  border-top-color: #8f6ed5;
+  border-top-color: #366eee;
   -webkit-animation: spin 3s linear infinite;
   animation: spin 3s linear infinite;
 }
@@ -3913,7 +3913,7 @@ ul.blog-comments li p {
   bottom: 15px;
   border-radius: 50%;
   border: 3px solid transparent;
-  border-top-color: #d782d9;
+  border-top-color: #1351de;
   -webkit-animation: spin 1.5s linear infinite;
   animation: spin 1.5s linear infinite;
 }
@@ -3977,4 +3977,21 @@ ul.blog-comments li p {
   -webkit-transform: rotate(180deg);
   -moz-transform: rotate(180deg);
   transform: rotate(180deg);
+}
+
+#footerLeft {
+  width: 47%;
+  float: left;
+  display: block;
+  height: 100px;
+}
+#footerRight {
+  width: 47%;
+  float: right;
+  display: block;
+  height: 100px;
+}
+#footerTwoColumn {
+  width: 100%;
+  height: 100%;
 }
