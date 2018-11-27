@@ -2768,6 +2768,22 @@ SECTION MARGIN
 }
 
 
+/*============================================================
+				BACKERS CSS
+============================================================*/
+
+.backers div {
+    width: 20%;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+    .backers div {
+        width: 60%;
+        margin: 0 auto;
+    }
+}
+
+
 /*==================================
         10. COUNTER SECTION CSS
 ====================================*/
@@ -3862,4 +3878,18 @@ ul.blog-comments li p {
 #footerTwoColumn {
     width: 100%;
     height: 100%;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+    #footerTwoColumn img {
+        width: 40%;
+    }
+    #footerTwoColumn p {
+        font-size: 3vw;
+        line-height: 1.7em;
+    }
+    #footerTwoColumn a {
+        font-size: 3vw;
+        line-height: 1.7em;
+    }
 }
