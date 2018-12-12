@@ -407,8 +407,6 @@
 }
  .caption-slider .caption-photo {
      display: inline-block;
-     -webkit-box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.1);
-     box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.1) 
 }
  .caption-slider .caption-photo.two {
      margin-top: 60px;
