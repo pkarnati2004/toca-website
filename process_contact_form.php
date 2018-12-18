@@ -1,6 +1,6 @@
 <?php
 $subjectPrefix = '[contact form] website inbound';
-$emailTo       = 'marla@toca-app.com';
+$emailTo       = 'dev@toca-app.com';
 $errors = array(); // array to hold validation errors
 $data   = array(); // array to pass back data
 if($_SERVER['REQUEST_METHOD'] === 'POST') {
