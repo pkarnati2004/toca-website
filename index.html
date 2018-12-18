@@ -1,408 +1,353 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html class="no-js" lang="zxx">
 
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <!-- title -->
-    <title>Toca: Data Annotation</title>
-
-    <!-- favicon icon -->
-    <link rel="icon" href="img/toca/logo.png" type="image/png" sizes="16x16" />
-
-    <!-- font-awesome css -->
-    <link rel="stylesheet" href="css/font-awesome.min.css" />
-
-    <!-- themify icon -->
-    <link rel="stylesheet" href="css/themify-icons.css" />
-
-    <!-- magnific popup css -->
-    <link rel="stylesheet" href="css/magnific-popup.css" />
-
-    <!-- owl carousel -->
-    <link href="css/owl.theme.default.min.css" rel="stylesheet" />
-    <link href="css/owl.carousel.min.css" rel="stylesheet" />
-
-    <!-- bootstrap core css -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" />
-
-    <!-- custom css -->
-    <link href="css/style.css" rel="stylesheet" />
-
-    <!-- responsive css -->
-    <link href="css/responsive.css" rel="stylesheet" />
-
-    <script src="js/vendor/modernizr-2.8.1.min.js"></script>
-    <!--
-      HTML5 Shim and Respond.js for IE8 support of HTML5 elements and media queries
-    -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="js/vendor/html5shim.js"></script>
-      <script src="js/vendor/respond.min.js"></script>
-    <![endif]-->
+    <meta charset="utf-8">
+    <meta name="author" content="Toca-App">
+    <meta name="description" content="Data annotation service company">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toca: Client Page</title>
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="shortcut icon" type="image/ico" href="images/favicon.png" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
 
-<body>
-    <!-- Preloader -->
-    <div id="preloader">
-        <div id="loader"></div>
+<body data-spy="scroll" data-target="#primary-menu">
+    <div class="preloader">
+        <div class="sk-folding-cube">
+            <div class="sk-cube1 sk-cube"></div>
+            <div class="sk-cube2 sk-cube"></div>
+            <div class="sk-cube4 sk-cube"></div>
+            <div class="sk-cube3 sk-cube"></div>
+        </div>
     </div>
-    <!-- end preloader -->
-
-    <div id="main" class="main-content-wraper">
-        <div class="main-content-inner">
-            <!-- start header section -->
-            <header class="header">
-                <!-- start navbar -->
-                <div class="navbar navbar-default navbar-fixed-top">
-                    <div class="container">
-                        <div class="row">
-                            <div class="navbar-header page-scroll">
-                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                  </button>
-                                <a class="navbar-brand page-scroll" href="index.html">
-                                    <img src="img/toca/logo.png" alt="logo" />
-                                </a>
-                            </div>
-
-                            <!--
-                  Collect the nav links, forms, and other content for toggling
-                -->
-                            <div class="navbar-collapse collapse" id="myNavbar">
-                                <ul class="nav navbar-nav navbar-right">
-                                    <li class="active">
-                                        <a class="page-scroll" href="#hero">Home</a>
-                                    </li>
-                                    <li>
-                                        <a class="page-scroll" href="#services">Services</a>
-                                    </li>
-                                    <li><a class="page-scroll" href="#info">About Us</a></li>
-                                    <li><a class="page-scroll" href="#sponsors">Sponsors</a></li>
-                                    <!-- <li><a class="page-scroll" href="#news">News</a></li>
-                                    <li><a class="page-scroll" href="#contact">Contact</a></li> -->
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- end navbar -->
-            </header>
-            <!-- end header section -->
-
-            <!-- start hero section -->
-            <section id="hero" class="section-lg section-hero section-circle">
-                <!-- background circle shape -->
-                <div class="shape shape-style-1 shape-primary">
-                    <span class="circle-150"></span> <span class="circle-50"></span>
-                    <span class="circle-50"></span> <span class="circle-75"></span>
-                    <span class="circle-100"></span> <span class="circle-75"></span>
-                    <span class="circle-50"></span> <span class="circle-100"></span>
-                    <span class="circle-50"></span> <span class="circle-100"></span>
-                </div>
-                <!-- background circle shape -->
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-8">
-                            <div class="hero-content-wrap">
-                                <div class="hero-content">
-                                    <h1>Cultivating untapped intelligence</h1>
-                                    <p>Accessible, high quality data annotation</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="mobile-slider-area">
-                                <div class="phone">
-                                    <img src="img//toca/bg2.png" alt="Phone" class="img-responsive" />
-                                    <div class="mobile-slider owl-carousel owl-theme">
-                                        <div class="item">
-                                            <img src="img/toca/phone-mock-1.png" alt="Screen 1" class="img-responsive" />
-                                        </div>
-                                        <div class="item">
-                                            <img src="img/toca/phone-mock-2.png" alt="Screen 2" class="img-responsive" />
-                                        </div>
-                                        <div class="item">
-                                            <img src="img/toca/phone-mock-3.png" alt="Screen 3" class="img-responsive" />
-                                        </div>
-                                        <!-- <div class="item">
-                                            <img src="img/top-screen-3.png" alt="Screen 3" class="img-responsive" />
-                                        </div> -->
-                                        <!-- <div class="item">
-                                            <img src="img/top-screen-7.png" alt="Screen 3" class="img-responsive" />
-                                        </div>
-                                        <div class="item">
-                                            <img src="img/top-screen-8.png" alt="Screen 3" class="img-responsive" />
-                                        </div> -->
-                                    </div>
-                                </div>
-
-                                <div class="slider-indicator indicator-color">
-                                    <ul>
-                                        <li id="prev"><i class="fa fa-angle-left"></i></li>
-                                        <li id="next"><i class="fa fa-angle-right"></i></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="section-shape">
-                    <img src="img/wave-shap.png" alt="shape image" />
-                </div>
-            </section>
-            <!-- end hero section -->
-
-            <!-- start promo section -->
-            <section id="services" class="promo-section ptb-90">
-                <div class="promo-section-wrap">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="section-heading text-center">
-                                    <h3>Services offered</h3>
-                                    <p>
-                                        Can't find the service you're looking for? Get in touch
-                                        <a href="mailto:example@toca-app.com">here.</a>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-3 col-sm-6">
-                                <div class="bg-secondary single-promo-section text-center">
-                                    <div class="single-promo-content">
-                                        <span class="ti-image"></span>
-                                        <h6>Image Labeling</h6>
-                                        <ul style="list-style: disc outside; text-align: center; margin-left: 5px; list-style-type: none;">
-                                            <li>Binary or categorical</li>
-                                            <li>Comparison-based</li>
-                                            <li>Grid-based</li>
-
-                                        </ul>
-                                    </div>
-                                    <div class="line"></div>
-                                </div>
-                            </div>
-                            <div class="col-md-3 col-sm-6">
-                                <div class="bg-secondary single-promo-section text-center">
-                                    <div class="single-promo-content">
-                                        <span class="ti-pencil"></span>
-                                        <h6>Text Transcription</h6>
-                                        <ul style="list-style: disc outside; text-align: center; margin-left: 5px; list-style-type: none;">
-                                            <li>Handwritten text</li>
-                                            <li>Receipts items</li>
-                                            <li>Street sign names</li>
-                                        </ul>
-                                    </div>
-                                    <div class="line"></div>
-                                </div>
-                            </div>
-                            <div class="col-md-3 col-sm-6">
-                                <div class="bg-secondary single-promo-section text-center">
-                                    <div class="single-promo-content">
-                                        <span class="ti-align-left"></span>
-                                        <h6>Text Processing</h6>
-                                        <ul style="list-style: disc outside; text-align: center; margin-left: 5px; list-style-type: none;">
-                                            <li>Entity extraction</li>
-                                            <li>Topic identification</li>
-                                            <li>Categorize documents</li>
-                                        </ul>
-                                    </div>
-                                    <div class="line"></div>
-                                </div>
-                            </div>
-                            <div class="col-md-3 col-sm-6">
-                                <div class="bg-secondary single-promo-section text-center">
-                                    <div class="single-promo-content">
-                                        <span class="ti-headphone-alt"></span>
-                                        <h6>Audio Transcription</h6>
-                                        <ul style="list-style: disc outside; text-align: center; margin-left: 5px; list-style-type: none;">
-                                            <li>English</li>
-                                            <li>Spanish</li>
-                                            <li>Swahili</li>
-                                        </ul>
-                                    </div>
-                                    <div class="line"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- end promo section -->
-
-            <!-- start features section -->
-            <section id="info" class="bg-secondary ptb-90">
-                <div class="container">
-                    <h3 style="margin-bottom: 50px">Why we're different</h3>
-                    <div class="row align-items-center">
-                        <div class="col-md-8">
-                            <div class="panel-group" id="accordion">
-                                <!-- Start Single Item -->
-                                <div class="panel panel-default">
-                                    <div class="panel-heading" id="headingOne">
-                                        <h4 class="panel-title">
-                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" class="collapsed">
-                          Accessible pricing
-                        </a>
-                                        </h4>
-                                    </div>
-                                    <div id="collapseOne" class="panel-collapse collapse">
-                                        <div class="panel-body">
-                                            <p>
-                                                With our unique mobile-based work platform, workers earn more and clients pay less – about 20% less than competitors such as Amazon Mechanical Turk.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- End Single Item -->
-                                <!-- Start Single Item -->
-                                <div class="panel panel-default">
-                                    <div class="panel-heading" id="headingTwo">
-                                        <h4 class="panel-title">
-                                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
-                          Guaranteed high quality work
-                        </a>
-                                        </h4>
-                                    </div>
-                                    <div id="collapseTwo" class="panel-collapse collapse">
-                                        <div class="panel-body">
-                                            <p>
-                                                We guarantee 95% accuracy in our data annotation, achieved through cross validation by experts along with a unique work distribution model. Our proprietary talent identification model uses machine learning to find the most reliable workers, while our
-                                                work distribution pipeline minimizes the correlation between errors, allowing us to correct any mis-annotations before they are finalized.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- End Single Item -->
-                                <!-- Start Single Item -->
-                                <div class="panel panel-default">
-                                    <div class="panel-heading" id="headingTwo">
-                                        <h4 class="panel-title">
-                                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
-                          Ease of integration
-                        </a>
-                                        </h4>
-                                    </div>
-                                    <div id="collapseThree" class="panel-collapse collapse">
-                                        <div class="panel-body">
-                                            <p>
-                                                A simple API that can easily integrate to your work process to send us your training data. We also offer an optional dedicated project manager.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- End Single Item -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- end features section -->
-
-            <!-- start backed by section -->
-            <section id="sponsors" class="promo-section ptb-90">
-                <div class="promo-section-wrap">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="section-heading text-center" style="margin-bottom: 0">
-                                    <p style="font-style: italic">PROUDLY BACKED BY</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row backers">
-                            <div class="col-md-3 col-sm-10">
-                                <img src="img/toca/backed_by/sandbox.png" />
-                            </div>
-                            <div class="col-md-3 col-sm-10">
-                                <img src="img/toca/backed_by/hks.png" />
-                            </div>
-                            <div class="col-md-3 col-sm-10">
-                                <img src="img/toca/backed_by/dlab.png" />
-                            </div>
-                            <div class="col-md-3 col-sm-10">
-                                <img src="img/toca/backed_by/pkg.png" />
-                            </div>
-                            <div class="col-md-3 col-sm-10">
-                                <img src="img/toca/backed_by/legatum.png" />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- end backed by section -->
-
-            <!-- start footer section -->
-            <footer class="footer-section bg-secondary ptb-60">
-                <div class="container">
-                    <div id="footerTwoColumn">
-                        <div id="footerLeft">
-                            <img src="img/toca/logo-color.png" alt="footer logo" />
-                            <ul>
-                                <li>
-                                    <p>
-                                        Cultivating untapped human intelligence using mobile digital work to empower individuals in developing economies
-                                    </p>
-                                </li>
-                            </ul>
-                        </div>
-                        <div id="footerRight">
-                            <p>3 Ames Street, Cambridge MA 02142</p>
-                            <ul>
-                                <li>
-                                    <i class="fa fa-envelope-o"></i>
-                                    <span>
-                      <a href="mailto:hello@toca-app.com"
-                        >hello@toca-app.com</a
-                      ></span
-                    >
-                  </li>
-                </ul>
-              </div>
+    <div class="mainmenu-area" data-spy="affix" data-offset-top="100">
+        <div class="container">
+            <div class="navbar-header">
+                <a href="#" class="navbar-brand logo">
+                    <img src="images/icon.png" width="100px">
+                </a>
             </div>
-          </div>
-        </footer>
-        <!-- end footer section -->
-      </div>
-      <!-- end main content inner -->
+            <nav class="collapse navbar-collapse" id="primary-menu">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#value">Value</a></li>
+                    <li><a href="#offerings">Offerings</a></li>
+                    <li><a href="#process">Process</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </div>
-    <!-- end main container -->
+    <header class="header-area overlay full-height relative v-center" id="home-page">
+        <div class="absolute anlge-bg"></div>
+        <div class="container">
+            <div class="row v-center">
+                <div class="col-xs-12 col-md-7 header-text">
+                    <h2>Empowering Data Annotation</h2>
+                    <p>We use mobile technology and a decentralized workforce to delivery high-quality data annotation services.</p>
+                    <a href="contact.html" class="button">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="gray-bg section-padding" id="value">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-sm-offset-3 text-center">
+                    <div class="page-title">
+                        <h2>Our Distinctive Value</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="box">
+                        <div class="box-icon">
+                            <img src="images/value/price.svg" alt="" width="150">
+                        </div>
+                        <h3>Accessible Pricing</h3>
+                        <p>Our unique mobile-based work platform, workers earn more and clients pay less.</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="box">
+                        <div class="box-icon">
+                            <img src="images/value/quality.svg" alt="" width="150">
+                        </div>
+                        <h3>High-quality Results</h3>
+                        <p>Our proprietary quality-assurance algorithm enables us to guarantee 95% accuracy.</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="box">
+                        <div class="box-icon">
+                            <img src="images/value/integration.svg" alt="" width="150">
+                        </div>
+                        <h3>Simple Integration</h3>
+                        <p>Our simple API and designated project managers can ensure our insights integrate smoothly into your workflow.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="angle-bg sky-bg section-padding" id="offerings">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-sm-offset-3 text-center">
+                    <div class="page-title">
+                        <h2>Our Current Offerings</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <div id="caption_slide" class="carousel slide caption-slider" data-ride="carousel">
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active row">
+                                <div class="v-center">
+                                    <div class="col-xs-12 col-md-6">
+                                        <div class="caption-title" data-animation="animated fadeInUp">
+                                            <h2>Image Classification</h2>
+                                        </div>
+                                        <div class="caption-desc" data-animation="animated fadeInUp">
+                                            <p>Training self-driving cars? Working on medical identification? We can provide binary or categorical image classification to fuel your computer vision needs.</p>
+                                        </div>
+                                        <div class="caption-button" data-animation="animated fadeInUp">
+                                            <a href="contact.html" class="button">Contact Us</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 col-md-3">
+                                        <div class="caption-photo one" data-animation="animated fadeInRight">
+                                            <img src="images/offerings/screen-log.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 col-md-3">
+                                        <div class="caption-photo two" data-animation="animated fadeInRight">
+                                            <img src="images/offerings/screen-image.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item row">
+                                <div class="v-center">
+                                    <div class="col-xs-12 col-md-6">
+                                        <div class="caption-title" data-animation="animated fadeInUp">
+                                            <h2>Text Transcription</h2>
+                                        </div>
+                                        <div class="caption-desc" data-animation="animated fadeInUp">
+                                            <p>Voice recognition? Instant translations? We can provide text transcription services to fuel your natural language processing development. </p>
+                                        </div>
+                                        <div class="caption-button" data-animation="animated fadeInUp">
+                                            <a href="contact.html" class="button">Contact Us</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 col-md-3">
+                                        <div class="caption-photo one" data-animation="animated fadeInRight">
+                                            <img src="images/offerings/screen-log.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 col-md-3">
+                                        <div class="caption-photo two" data-animation="animated fadeInRight">
+                                            <img src="images/offerings/screen-menu.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item row">
+                                <div class="v-center">
+                                    <div class="col-xs-12 col-md-6">
+                                        <div class="caption-title" data-animation="animated fadeInUp">
+                                            <h2>Audio Translation</h2>
+                                        </div>
+                                        <div class="caption-desc" data-animation="animated fadeInUp">
+                                            <p>Voice rendering? Personal assistant development? We can provide audio translation to fuel your AI development.</p>
+                                        </div>
+                                        <div class="caption-button" data-animation="animated fadeInUp">
+                                            <a href="contact.html" class="button">Contact Us</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 col-md-3">
+                                        <div class="caption-photo one" data-animation="animated fadeInRight">
+                                            <img src="images/offerings/screen-log.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 col-md-3">
+                                        <div class="caption-photo two" data-animation="animated fadeInRight">
+                                            <img src="images/offerings/screen-menu.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item row">
+                                <div class="v-center">
+                                    <div class="col-xs-12 col-md-6">
+                                        <div class="caption-title" data-animation="animated fadeInUp">
+                                            <h2>Content Processing</h2>
+                                        </div>
+                                        <div class="caption-desc" data-animation="animated fadeInUp">
+                                            <p>Document classification? Summarizing? We can provide content processing to simplify your processes and workflows.</p>
+                                        </div>
+                                        <div class="caption-button" data-animation="animated fadeInUp">
+                                            <a href="contact.html" class="button">Contact Us</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 col-md-3">
+                                        <div class="caption-photo one" data-animation="animated fadeInRight">
+                                            <img src="images/offerings/screen-log.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-6 col-md-3">
+                                        <div class="caption-photo two" data-animation="animated fadeInRight">
+                                            <img src="images/offerings/screen-menu.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <ol class="carousel-indicators caption-indector">
+                            <li data-target="#caption_slide" data-slide-to="0" class="active">
+                                <strong>Image Classification </strong> binary and catagorical.
+                            </li>
+                            <li data-target="#caption_slide" data-slide-to="1">
+                                <strong>Text Transcription </strong> audio to text.
+                            </li>
+                            <li data-target="#caption_slide" data-slide-to="2">
+                                <strong>Audio Translation </strong> text to audio.
+                            </li>
+                            <li data-target="#caption_slide" data-slide-to="3">
+                                <strong>Content Processing</strong> extracting insights.
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <!-- =========== all js file link ============== -->
+    <section class="network-panel" id="network-panel">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-xs-12">
+                    <div class="clients">
+                        <div class="item">
+                            <img src="images/network/dlab.png" alt="D-Lab">
+                        </div>
+                        <div class="item">
+                            <img src="images/network/hks.png" alt="Harvard Kennedy School">
+                        </div>
+                        <div class="item">
+                            <img src="images/network/legatum.png" alt="Legatum Center">
+                        </div>
+                        <div class="item">
+                            <img src="images/network/pkg.png" alt="PKG Center">
+                        </div>
+                        <div class="item">
+                            <img src="images/network/sandbox.png" alt="Sandbox">
+                        </div>
+                        <div class="item">
+                            <img src="images/network/mit_sloan_logo.jpg" alt="MIT Sloan">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <!-- main jQuery -->
-    <script src="js/jquery-3.3.1.min.js "></script>
-
-    <!-- bootstrap core js -->
-    <script src="js/bootstrap.min.js "></script>
-
-    <!-- smothscroll -->
-    <script src="js/jquery.easeScroll.min.js "></script>
-
-    <!-- owl carousel -->
+    <footer class="footer-area relative sky-bg full-height" id="process">
+        <div class="absolute footer-bg"></div>
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-sm-offset-3 text-center">
+                        <div class="page-title">
+                            <h2>Our Reliable Process</h2>
+                            <p>Our technical project managers support you throughout the process</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                        <div class="single-step">
+                            <div class="step-photo">
+                                <img src="images/process/conversation.jpg" alt="">
+                            </div>
+                            <div>
+                                </br>
+                                <h4>personalized planning</h4>
+                                <h6>step 1</h6>
+                            </div>
+                            <h5 class="social-menu">
+                                through a personal conversation, we will craft a service plan together.
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                        <div class="single-step">
+                            <div class="step-photo">
+                                <img src="images/process/decentralized.jpg" alt="">
+                            </div>
+                            <div>
+                                </br>
+                                <h4>decentralized analysis</h4>
+                                <h6>step 2</h6>
+                            </div>
+                            <h5 class="social-menu">
+                                leveraging our decentralized workforce, we will get eyes on your data quickly and efficiently.
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                        <div class="single-step">
+                            <div class="step-photo">
+                                <img src="images/process/aggregate.jpg" alt="">
+                            </div>
+                            <div>
+                                </br>
+                                <h4>thoughtful aggregation</h4>
+                                <h6>step 3</h6>
+                            </div>
+                            <h5 class="social-menu">
+                                employing our proprietary aggregation algorithm, we can optimize your results.
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                        <div class="single-step">
+                            <div class="step-photo">
+                                <img src="images/process/results.jpg" alt="">
+                            </div>
+                            <div>
+                                </br>
+                                <h4>guaranteed results</h4>
+                                <h6>step 4</h6>
+                            </div>
+                            <h5 class="social-menu">
+                                through our industry-leading process, we guarantee accurate, on-time results.
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
-
-    <!-- scrolling nav -->
-    <script src="js/jquery.easing.min.js "></script>
-
-    <!-- fullscreen background video js -->
-    <script src="js/jquery.mb.ytplayer.min.js"></script>
-
-    <!-- typed js -->
-    <script src="js/typed.min.js"></script>
-
-    <!-- magnific popup js -->
+    <script src="js/contact-form.js"></script>
+    <script src="js/jquery.parallax-1.1.3.js"></script>
+    <script src="js/scrollUp.min.js"></script>
     <script src="js/magnific-popup.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
 
-    <!-- custom script -->
-    <script src="js/scripts.js"></script>
-  </body>
 </html>
