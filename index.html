@@ -37,7 +37,7 @@
                     <img src="images/icon.png" width="100px">
                 </a>
             </div>
-            <nav class="collapse navbar-collapse" id="primary-menu">
+            <nav class="collapse navbar-collapse navbar-mobile" id="primary-menu">
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="#value">Value</a></li>
                     <li><a href="#offerings">Offerings</a></li>
@@ -55,6 +55,11 @@
                     <h2>Empowering Data Annotation</h2>
                     <p>We use mobile technology and a decentralized workforce to delivery high-quality data annotation services.</p>
                     <a href="contact.html" class="button">Contact Us</a>
+                </div>
+                <div class="col-xs-6 col-md-3 phone-img">
+                    <div class="phone-img" data-animation="animated fadeInRight">
+                        <img src="images/offerings/screen-log.png" alt="">
+                    </div>
                 </div>
             </div>
         </div>
@@ -157,7 +162,7 @@
                                     </div>
                                     <div class="col-xs-6 col-md-3">
                                         <div class="caption-photo two" data-animation="animated fadeInRight">
-                                            <img src="images/offerings/screen-menu.png" alt="">
+                                            <img src="images/offerings/screen-text.png" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -182,7 +187,7 @@
                                     </div>
                                     <div class="col-xs-6 col-md-3">
                                         <div class="caption-photo two" data-animation="animated fadeInRight">
-                                            <img src="images/offerings/screen-menu.png" alt="">
+                                            <img src="images/offerings/screen-audio.png" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -207,7 +212,7 @@
                                     </div>
                                     <div class="col-xs-6 col-md-3">
                                         <div class="caption-photo two" data-animation="animated fadeInRight">
-                                            <img src="images/offerings/screen-menu.png" alt="">
+                                            <img src="images/offerings/screen-menu-2.png" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -262,7 +267,7 @@
         </div>
     </section>
 
-    <footer class="footer-area relative sky-bg full-height" id="process">
+    <section class="footer-area relative sky-bg full-height-footer" id="process">
         <div class="absolute footer-bg"></div>
         <div class="footer-top">
             <div class="container">
@@ -334,6 +339,59 @@
                                 through our industry-leading process, we guarantee accurate, on-time results.
                             </h5>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+    </section>
+    <footer class="full-height-contact footer-area relative sky-bg" id="contact-page">
+        <div class="absolute"></div>
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-sm-offset-3 text-center">
+                        <div class="page-title">
+                            <h2>Contact Us</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-md-4">
+                        <address class="side-icon-boxes">
+                            <div class="side-icon-box">
+                                <div class="side-icon">
+                                    <img src="images/location-arrow.png" alt="">
+                                </div>
+                                <p><strong>Address: </strong> 1 Amherst St, Cambridge, MA</p>
+                            </div>
+                            <div class="side-icon-box">
+                                <div class="side-icon">
+                                    <img src="images/mail-arrow.png" alt="">
+                                </div>
+                                <p><strong>E-mail: </strong>
+                                    <a href="mailto:info@toca-app.com">info@toca-app.com</a>
+                                </p>
+                            </div>
+                            <div class="side-icon-box side-icon">
+                            <ul class="social-menu">
+                                <li><a href="https://www.facebook.com/tocaapp"><i class="ti-facebook"></i></a></li>
+                                <li><a href="https://twitter.com/tocaapp"><i class="ti-twitter"></i></a></li>
+                                <li><a href="https://www.linkedin.com/company/toca-app/"><i class="ti-linkedin"></i></a></li>
+                            </ul>
+                            </div>
+                        </address>
+                    </div>
+                    <div class="col-xs-12 col-md-8">
+                        <form action="process_contact_form.php" id="contact-form" method="post" class="contact-form">
+                            <div class="form-double">
+                                <input type="text" id="form-name" name="form-name" placeholder="Your name" class="form-control" required="required">
+                                <input type="text" id="form-company" name="form-company" placeholder="Your company" class="form-control" required="required">
+                            </div>
+                            <input type="email" id="form-email" name="form-email" class="form-control" placeholder="E-mail address" required="required">
+                            <input type="text" id="form-subject" name="form-subject" class="form-control" placeholder="Message">
+                            <button type="sibmit" class="button">Send</button>
+                        </form>
                     </div>
                 </div>
             </div>

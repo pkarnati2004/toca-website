@@ -1,5 +1,6 @@
 <!doctype html>
 <html class="no-js" lang="zxx">
+
 <head>
     <meta charset="utf-8">
     <meta name="author" content="Toca-App">
@@ -19,6 +20,7 @@
     <link rel="stylesheet" href="css/responsive.css">
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
+
 <body data-spy="scroll" data-target="#primary-menu">
     <div class="preloader">
         <div class="sk-folding-cube">
@@ -32,7 +34,7 @@
         <div class="container">
             <div class="navbar-header">
                 <a href="#" class="navbar-brand logo">
-                    <img src="images/icon.png" width="100px">              
+                    <img src="images/icon.png" width="100px">
                 </a>
             </div>
         </div>
@@ -87,6 +89,58 @@
             </div>
         </div>
     </section>
+    <footer class="full-height-contact footer-area relative sky-bg" id="contact-page">
+        <div class="absolute"></div>
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-sm-offset-3 text-center">
+                        <div class="page-title">
+                            <h2>Contact Us</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-md-4">
+                        <address class="side-icon-boxes">
+                            <div class="side-icon-box">
+                                <div class="side-icon">
+                                    <img src="images/location-arrow.png" alt="">
+                                </div>
+                                <p><strong>Address: </strong> 1 Amherst St, Cambridge, MA</p>
+                            </div>
+                            <div class="side-icon-box">
+                                <div class="side-icon">
+                                    <img src="images/mail-arrow.png" alt="">
+                                </div>
+                                <p><strong>E-mail: </strong>
+                                    <a href="mailto:info@toca-app.com">info@toca-app.com</a>
+                                </p>
+                            </div>
+                            <div class="side-icon-box side-icon">
+                            <ul class="social-menu">
+                                <li><a href="https://www.facebook.com/tocaapp"><i class="ti-facebook"></i></a></li>
+                                <li><a href="https://twitter.com/tocaapp"><i class="ti-twitter"></i></a></li>
+                                <li><a href="https://www.linkedin.com/company/toca-app/"><i class="ti-linkedin"></i></a></li>
+                            </ul>
+                            </div>
+                        </address>
+                    </div>
+                    <div class="col-xs-12 col-md-8">
+                        <form action="process_contact_form.php" id="contact-form" method="post" class="contact-form">
+                            <div class="form-double">
+                                <input type="text" id="form-name" name="form-name" placeholder="Your name" class="form-control" required="required">
+                                <input type="text" id="form-company" name="form-company" placeholder="Your company" class="form-control" required="required">
+                            </div>
+                            <input type="email" id="form-email" name="form-email" class="form-control" placeholder="E-mail address" required="required">
+                            <input type="text" id="form-subject" name="form-subject" class="form-control" placeholder="Message">
+                            <button type="sibmit" class="button">Send</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
     <script src="js/vendor/jquery-1.12.4.min.js"></script>
     <script src="js/vendor/bootstrap.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
@@ -97,4 +151,5 @@
     <script src="js/wow.min.js"></script>
     <script src="js/main.js"></script>
 </body>
+
 </html>
