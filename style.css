@@ -803,6 +803,11 @@ input:-webkit-autofill:focus {
         width: 15vw;
         float: left;
     }
+    .phone-img {
+        width: 15vw;
+        margin-top: 5vh;
+        display: none;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 800px) {
@@ -813,6 +818,11 @@ input:-webkit-autofill:focus {
     .phone-flexible.right {
         width: 20vw;
         float: left;
+    }
+    .phone-img {
+        width: 15vw;
+        margin-top: 5vh;
+        display: none;
     }
 }
 
